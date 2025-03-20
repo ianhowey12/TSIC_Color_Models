@@ -1104,9 +1104,9 @@ int main(void) {
 	//testFileReading();
 	//testConversions();
 
-	initializeImagesAll();
-	//initializeImagesChallengeFree();
+	initializeImagesChallengeFree();
 	//initializeImagesLowChallenge();
+	//initializeImagesAll();
 
 	runTest();
 
