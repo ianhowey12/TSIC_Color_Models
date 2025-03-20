@@ -1,9 +1,9 @@
 /*
-The CURE-TSR traffic sign image dataset can be downloaded at https://ieee-dataport.org/open-access/cure-tsr-challenging-unreal-and-real-environments-traffic-sign-recognition.
+The CURE-TSR traffic sign image dataset can be downloaded at https://ieee-dataport.org/open-access/cure-tsr-challenging-unreal-and-real-environments-traffic-sign-recognition
 Before using, extract each of the 61 sub-folders within the "Real_Train" folder of the dataset to a folder named "Train" on Windows C: drive.
 This extraction process should take 1-2 minutes per sub-folder or 1-2 hours in total, depending on the computer being used.
 The test functions inside main() at the bottom of this file can be used to test the program by removing "//" before each test function's name.
-Remove "//" before initializeImagesAll(); or before initializeImagesChallengeFree(); or before initializeImagesLowChallenge(); inside main() depending on the subset of images to sample.
+Remove "//" before either initializeImagesAll(); or initializeImagesChallengeFree(); or initializeImagesLowChallenge(); inside main() depending on the subset of images to sample.
 As it is currently set up, the program will run the full experimental process using runTest().
 */
 
