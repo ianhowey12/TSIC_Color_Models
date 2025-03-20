@@ -4,11 +4,11 @@ An original project I conducted which examines the effects of different color mo
 This project's code implements the algorithm and its associated combined training and testing procedure used for the study I conducted.
 The project examines the performance of the RGB, RGBK, CMY, CMYK, HSV, HSL, K grayscale, and L grayscale color models when used in conjunction with a CNN algorithm of varying parameters. Performance is determined using a sample of real images of traffic signs from the CURE-TSR image dataset. Classification accuracy, classification duration, and memory usage are the dependent variables. The program conducts the full experimental process for the selected image sample, which is customizable. The project aims to discover the value of alternative color models for this task and to determine the impact color data has on CNN algorithm performance and general functioning for similar computer vision tasks. Applications for such algorithm models focus on the development of autonomous vehicles in the context of traffic sign recognition, although for other target objects, many diverse settings require intelligent computer vision processes and benefit from algorithm design and development.
 
-Instructions for use (also included in code):
+Instructions for use:
 
 The CURE-TSR traffic sign image dataset can be downloaded at https://ieee-dataport.org/open-access/cure-tsr-challenging-unreal-and-real-environments-traffic-sign-recognition
 
-Before using, extract each of the 61 sub-folders within the "Real_Train" folder of the dataset to a folder named "Train" on Windows C: drive.
+Before using this program, extract each of the 61 sub-folders within the "Real_Train" folder of the dataset to a folder named "Train" on Windows C: drive.
 This extraction process should take 1-2 minutes per sub-folder or 1-2 hours in total, depending on the computer being used.
 At the end of this process, the "Train" folder should contain only the 61 sub-folders labeled "ChallengeFree", "CodecError-1", and so on.
 Each sub-folder should contain around 7200 images.
