@@ -1027,9 +1027,8 @@ void testConversions() {
 // runs the entire experimental process: 5 filter sizes * 4 filter counts * 8 color models = 160 trials 
 void runTest() {
 	char prediction = -1;
-	
-	printf("Starting tests... (This will probably take a few minutes per test.)\n");
-	printf("Test results will be displayed after each test concludes.\n\n");
+
+	printf("Starting tests...\nEach test may take a few minutes to run.\nTest results will be displayed after each test concludes.\n\n");
 
 	for (filterSize = 3; filterSize < 12; filterSize += 2) {
 
