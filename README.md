@@ -1,8 +1,25 @@
 # TSIC_Color_Models
+Traffic Sign Image Classifiation with Color Models
+
 An original project I conducted which examines the effects of different color models on convolutional neural networks (CNNs) and their ability to classify images of traffic signs through a dedicated experimental procedure.
 
-This project's code implements the algorithm and its associated combined training and testing procedure used for the study I conducted.
-The project examines the performance of the RGB, RGBK, CMY, CMYK, HSV, HSL, K grayscale, and L grayscale color models when used in conjunction with a CNN algorithm of varying parameters. Performance is determined using a sample of real images of traffic signs from the CURE-TSR image dataset. Classification accuracy, classification duration, and memory usage are the dependent variables. The program conducts the full experimental process for the selected image sample, which is customizable. The project aims to discover the value of alternative color models for this task and to determine the impact color data has on CNN algorithm performance and general functioning for similar computer vision tasks. Applications for such algorithm models focus on the development of autonomous vehicles in the context of traffic sign recognition, although for other target objects, many diverse settings require intelligent computer vision processes and benefit from algorithm design and development.
+This project's code implements the algorithm and its associated combined training and testing procedure used for the study I conducted. The project examines the performance of the RGB, RGBK, CMY, CMYK, HSV, HSL, K grayscale, and L grayscale color models when used in conjunction with a CNN algorithm of varying parameters. Performance is determined using a sample of real images of traffic signs from the CURE-TSR image dataset. Classification accuracy, classification duration, and memory usage are the dependent variables. The program conducts the full experimental process for the selected image sample, which is customizable. The project aims to discover the value of alternative color models for this task and to determine the impact color data has on CNN algorithm performance and general functioning for similar computer vision tasks. Applications for such algorithm models focus on the development of autonomous vehicles in the context of traffic sign recognition, although for other target objects, many other settings require intelligent computer vision processes and benefit from algorithm design and development.
+
+Independent Variables:
+
+- Color Models (8 choices): RGB, RGBK, CMY, CMYK, HSV, HSL, K grayscale, L grayscale
+
+- Quantity of Convolutional Filters (4 choices): 24, 48, 72, 96
+
+- Size of Convolutional Filters (5 choices): 3x3, 5x5, 7x7, 9x9, 11x11
+
+Dependent Variables:
+
+- Classification Accuracy (%)
+
+- Classification Duration (milliseconds)
+
+- Memory Usage (bytes)
 
 Instructions for use:
 
