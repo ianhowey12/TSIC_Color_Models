@@ -444,7 +444,7 @@ void convert() {
 void readFile(char* address) {
 
 	FILE* fp;
-	fopen_s(&fp, address, "r");
+	fopen_s(&fp, address, "rb");
 	if (fp == NULL) {
 		printf("Couldn't open file %s\n", address);
 	}
@@ -948,7 +948,7 @@ void testNumImages() {
 			for (int k = 1; k < 15; k++) {
 
 				l = imageCounts[k - 1]; 
-				fopen_s(&f, getAddress(i, j, k, l), "r");
+				fopen_s(&f, getAddress(i, j, k, l), "rb");
 				if (f == NULL) {
 					printf("File %s is NULL - %i %i %i %i\n", getAddress(i, j, k, l), i, j, k, l);
 					err = 1;
